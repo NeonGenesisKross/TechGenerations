@@ -1,2 +1,0 @@
-# TechGenerations
-Minecraft modpack
