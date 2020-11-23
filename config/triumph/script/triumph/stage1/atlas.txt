@@ -1,0 +1,19 @@
+// Icon
+setIcon(<antiqueatlas:antique_atlas>)
+
+// Name
+setTranslatedTitle("advancements.stage1.atlas.title")
+setTranslatedDescription("advancements.stage1.atlas.description")
+
+// Notification
+setShowToast(false)
+setAnnounceToChat(true)
+
+//Add a parent advancement.
+addParent("triumph:stage1/leather")
+
+// Criteria
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<antiqueatlas:empty_antique_atlas>)
+
+setPos(447,-1)

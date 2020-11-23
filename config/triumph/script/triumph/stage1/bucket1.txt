@@ -1,0 +1,19 @@
+// Icon
+setIcon(<pyrotech:bucket_wood>)
+
+// Name
+setTranslatedTitle("advancements.stage1.bucket1.title")
+setTranslatedDescription("advancements.stage1.bucket1.description")
+
+// Notification
+setShowToast(false)
+setAnnounceToChat(true)
+
+//Add a parent advancement.
+addParent("triumph:stage1/flinttools")
+setRequiresParents()
+
+// Criteria
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<pyrotech:bucket_wood>)
+setPos(183,31)

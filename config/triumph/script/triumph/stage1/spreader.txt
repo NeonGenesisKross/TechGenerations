@@ -1,0 +1,19 @@
+// Icon
+setIcon(<botania:spreader>)
+
+// Name
+setTranslatedTitle("advancements.stage1.spreader.title")
+setTranslatedDescription("advancements.stage1.spreader.description")
+
+// Notification
+setShowToast(false)
+setAnnounceToChat(true)
+
+//Add a parent advancement.
+addParent("triumph:stage1/manapool")
+
+// Criteria
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<botania:spreader>)
+
+setPos(315,130)

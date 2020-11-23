@@ -1,0 +1,27 @@
+// Icon
+setIcon(<primal_tech:fire_sticks>)
+setFrameType("goal")
+
+// Name
+setTranslatedTitle("advancements.stage1.firesticks.title")
+setTranslatedDescription("advancements.stage1.firesticks.description")
+
+// Notification
+setShowToast(false)
+setAnnounceToChat(true)
+
+//Add a parent advancement.
+addParent("triumph:stage1/flinttools")
+setRequiresParents()
+
+// Color
+setCompletedIconColor(#5c85ff)
+
+// Criteria
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<primal_tech:fire_sticks>)
+
+// Reward
+setRewardItem(<primal_tech:fire_sticks>)
+
+setPos(183,64)

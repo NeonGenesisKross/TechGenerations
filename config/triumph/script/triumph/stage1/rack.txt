@@ -1,0 +1,19 @@
+// Icon
+setIcon(<tconstruct:rack:1>)
+
+// Name
+setTranslatedTitle("advancements.stage1.rack.title")
+setTranslatedDescription("advancements.stage1.rack.description")
+
+// Notification
+setShowToast(false)
+setAnnounceToChat(true)
+
+//Add a parent advancement.
+addParent("triumph:stage1/workstump")
+setRequiresParents()
+
+// Criteria
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<tconstruct:rack:1>)
+setPos(150,-2)

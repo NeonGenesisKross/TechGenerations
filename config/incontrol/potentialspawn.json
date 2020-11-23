@@ -1,0 +1,23 @@
+[
+  {
+    "dimension": 0,
+    "block": [
+      "minecraft:grass",
+      "minecraft:sand",
+      "minecraft:sand@1"
+    ],
+    "biome": [
+      "Jungle",
+      "Swamp",
+      "Savanna"
+    ],
+    "mobs": [
+      {
+        "mob": "Parrot",
+        "weight": 1,
+        "groupcountmin": 1,
+        "groupcountmax": 2
+      }
+    ]
+  }
+]

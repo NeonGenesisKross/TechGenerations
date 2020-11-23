@@ -1,0 +1,19 @@
+// Icon
+setIcon(<pyrotech:flint_and_tinder>)
+
+// Name
+setTranslatedTitle("advancements.stage1.flnst.title")
+setTranslatedDescription("advancements.stage1.flnst.description")
+
+// Notification
+setShowToast(false)
+setAnnounceToChat(true)
+
+//Add a parent advancement.
+addParent("triumph:stage1/firesticks")
+
+// Criteria
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<pyrotech:flint_and_tinder>)
+
+setPos(216,31)

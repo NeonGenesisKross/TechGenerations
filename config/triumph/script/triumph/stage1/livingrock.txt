@@ -1,0 +1,19 @@
+// Icon
+setIcon(<botania:livingrock>)
+
+// Name
+setTranslatedTitle("advancements.stage1.livingrock.title")
+setTranslatedDescription("advancements.stage1.livingrock.description")
+
+// Notification
+setShowToast(false)
+setAnnounceToChat(true)
+
+//Add a parent advancement.
+addParent("triumph:stage1/puredaisy")
+
+// Criteria
+item = addCriteria("hasItem", "minecraft:inventory_changed")
+item.addItem(<botania:livingrock>)
+
+setPos(249,130)

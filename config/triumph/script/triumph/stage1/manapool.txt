@@ -1,0 +1,19 @@
+// Icon
+setIcon(<botania:pool>)
+
+// Name
+setTranslatedTitle("advancements.stage1.manapool.title")
+setTranslatedDescription("advancements.stage1.manapool.description")
+
+// Notification
+setShowToast(false)
+setAnnounceToChat(true)
+
+//Add a parent advancement.
+addParent("triumph:stage1/livingrock")
+
+// Criteria
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<botania:pool>)
+
+setPos(282,130)

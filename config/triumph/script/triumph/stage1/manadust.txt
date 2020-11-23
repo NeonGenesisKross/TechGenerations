@@ -1,0 +1,19 @@
+// Icon
+setIcon(<botania:manaresource:23>)
+
+// Name
+setTranslatedTitle("advancements.stage1.manadust.title")
+setTranslatedDescription("advancements.stage1.manadust.description")
+
+// Notification
+setShowToast(true)
+setAnnounceToChat(true)
+
+//Add a parent advancement.
+addParent("triumph:stage1/endoflame")
+
+// Criteria
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<botania:manaresource:23>)
+
+setPos(381,130)

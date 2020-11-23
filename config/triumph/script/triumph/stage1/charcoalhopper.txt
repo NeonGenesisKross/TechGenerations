@@ -1,0 +1,20 @@
+// Icon
+setIcon(<primal_tech:charcoal_hopper>)
+
+// Name
+setTranslatedTitle("advancements.stage1.charcoalhopper.title")
+setTranslatedDescription("advancements.stage1.charcoalhopper.description")
+
+// Notification
+setShowToast(false)
+setAnnounceToChat(true)
+
+//Add a parent advancement.
+addParent("triumph:stage1/charcoalblock")
+setRequiresParents()
+
+// Criteria
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<primal_tech:charcoal_hopper>)
+
+setPos(282,15)

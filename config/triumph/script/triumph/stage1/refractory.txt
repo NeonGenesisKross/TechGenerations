@@ -1,0 +1,26 @@
+// Icon
+setIcon(<pyrotech:material:4>)
+setFrameType("challenge")
+
+// Name
+setTranslatedTitle("advancements.stage1.refractory.title")
+setTranslatedDescription("advancements.stage1.refractory.description")
+
+// Notification
+setShowToast(false)
+setAnnounceToChat(true)
+
+//Add a parent advancement.
+addParent("triumph:stage1/quern")
+setRequiresParents()
+
+// Color
+setCompletedIconColor(#be4dfa)
+
+// Criteria
+item = addCriteria("hasItem", "minecraft:inventory_changed")
+item.addItem(<pyrotech:material:4>)
+
+// Reward
+setRewardFunction("triumph:TriggerStage2")
+setPos(378,81)

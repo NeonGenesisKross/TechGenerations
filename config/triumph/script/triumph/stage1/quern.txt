@@ -1,0 +1,25 @@
+// Icon
+setIcon(<primal:quern, nbt:{type:"sarsen"}>)
+setFrameType("goal")
+
+// Name
+setTranslatedTitle("advancements.stage1.quern.title")
+setTranslatedDescription("advancements.stage1.quern.description")
+
+// Notification
+setShowToast(false)
+setAnnounceToChat(true)
+
+//Add a parent advancement.
+addParent("triumph:stage1/stonekiln")
+setRequiresParents()
+
+// Color
+setCompletedIconColor(#5c85ff)
+
+// Criteria
+item = addCriteria("hasItem", "minecraft:inventory_changed")
+item.addItem(<primal:quern, nbt:{type:"sarsen"}>)
+item.addItem(<primal:quern_buhrstone_carbonate>)
+
+setPos(346,81)

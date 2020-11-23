@@ -1,0 +1,20 @@
+// Icon
+setIcon(<primal_tech:leaf_bed>)
+visibleIf("triumph:stage1/tipi")
+
+// Name
+setTranslatedTitle("advancements.stage1.leafbed.title")
+setTranslatedDescription("advancements.stage1.leafbed.description")
+
+// Notification
+setShowToast(false)
+setAnnounceToChat(true)
+
+//Add a parent advancement.
+addParent("triumph:stage1/sleepingmat")
+
+// Criteria
+criteria1 = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria1.addItem(<primal_tech:leaf_bed>)
+
+setPos(216,-2)

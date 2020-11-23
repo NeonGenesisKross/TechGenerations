@@ -1,0 +1,19 @@
+// Icon
+setIcon(<primal_tech:flint_block>)
+
+// Name
+setTranslatedTitle("advancements.stage1.flintblock.title")
+setTranslatedDescription("advancements.stage1.flintblock.description")
+
+// Notification
+setShowToast(false)
+setAnnounceToChat(true)
+
+//Add a parent advancement.
+addParent("triumph:stage1/stoneanvil")
+
+// Criteria
+item = addCriteria("hasItem", "minecraft:inventory_changed")
+item.addItem(<primal_tech:flint_block>)
+
+setPos(282,48)

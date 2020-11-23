@@ -1,0 +1,25 @@
+// Icon
+setIcon(<pickletweaks:hammer>)
+setFrameType("challenge")
+
+// Name
+setTranslatedTitle("advancements.stage1.root.title")
+setTranslatedDescription("advancements.stage1.root.description")
+
+// Texture
+setBackground("minecraft:textures/blocks/stone_diorite.png")
+
+// Notification
+setShowToast(true)
+setAnnounceToChat(true)
+
+// Color
+setCompletedIconColor(#00ed9e)
+setCompletedTitleColor(#00ed9e)
+
+// Criteria
+addCriteria("location", "minecraft:location")
+
+//Rewards
+setRewardFunction("triumph:TriggerStage1")
+setPos(20,63)

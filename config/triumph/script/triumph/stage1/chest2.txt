@@ -1,0 +1,19 @@
+// Icon
+setIcon(<primalchests:primal_chest_advanced>)
+
+// Name
+setTranslatedTitle("advancements.stage1.chest2.title")
+setTranslatedDescription("advancements.stage1.chest2.description")
+
+// Notification
+setShowToast(false)
+setAnnounceToChat(true)
+
+//Add a parent advancement.
+addParent("triumph:stage1/chest1")
+setRequiresParents()
+
+// Criteria
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<primalchests:primal_chest_advanced>)
+setPos(183,97)

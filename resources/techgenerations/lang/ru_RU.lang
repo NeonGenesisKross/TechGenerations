@@ -1,0 +1,133 @@
+// Stage 1
+advancements.stage1.root.title=Первый этап QM: Through stAges
+advancements.stage1.root.description=Приветствую в данном модпаке! Следуй инструкциям в достижениях и все у тебя получится!
+
+advancements.stage1.grassmesh.title=Просеиваем гравий
+advancements.stage1.grassmesh.description=Создай травяную сетку и положи рядом с ней в сетке крафта в инвентаре блок гравия. Чтобы получить палки разрушай листву, чтобы получить растительное волокно - траву. 
+
+advancements.stage1.ShFlint.title=Хорошо, что не рассыпался!
+advancements.stage1.ShFlint.description=Кликни ЛКМ по камню, держа в руках кремний.
+
+advancements.stage1.hatchet.title=Ну и дров ты нарубил!
+advancements.stage1.hatchet.description=Создай Кремниевый Резак, а затем сруби несколько деревьев. Положи в сетку крафта в инвентаре свой Кремниевый резак и рядом с ним бревно, чтобы получить Плаху.
+
+advancements.stage1.workstump.title=Творческий процесс
+advancements.stage1.workstump.description=Создай Work Stump из мода Primal Tech. Чтобы получить деревянную плиту, ты должен разрубить резаком бревно на Плахе, а затем и полученный блок досок.
+
+advancements.stage1.chest1.title=Клад
+advancements.stage1.chest1.description=Сделай первобытный сундук.
+
+advancements.stage1.chest2.title=Сундучок
+advancements.stage1.chest2.description=Сделай улучшенный первобытный сундук.
+
+advancements.stage1.rack.title=Soft and Wet
+advancements.stage1.rack.description=Сделай сушилку.
+
+advancements.stage1.sleepingmat.title=Ну хотя-бы так...
+advancements.stage1.sleepingmat.description=Сделай спальный коврик из мода Cyclic. 
+
+advancements.stage1.leafbed.title=Первобытная кровать!
+advancements.stage1.leafbed.description=Сделай из листвы и сена кровать из мода Primal Tech!
+
+advancements.stage1.flinttools.title=Больше кремния богу кремния!
+advancements.stage1.flinttools.description=Скрафти кремневые: Меч, Кирку, Топор, Лопату, Мотыгу, Ножницы и Рабочее лезвие.
+
+advancements.stage1.bucket1.title=Деревянное ведро
+advancements.stage1.bucket1.description=Напили себе деревянное ведро из Pyrotech. Следует учесть, что когда в нем жидкость - оно каждое секунду ломается.
+
+advancements.stage1.firesticks.title=Дар Прометея
+advancements.stage1.firesticks.description=Сделай рубленную палку. (Whittled Fire Sticks)
+
+advancements.stage1.campfire.title=Prepare to die edition
+advancements.stage1.campfire.description=Создай Трут и нажми пкм по земле чтобы установить костер. Добавь к нему бревна, тыкнув ПКМ с бревном в руках, а затем зажги.
+
+advancements.stage1.flnst.title=Так себе зажигалка, но лучше чем палки!
+advancements.stage1.flnst.description=Скрафти Кремень и трут из мода Pyrotech.
+
+advancements.stage1.claykiln.title=Глинянная печь
+advancements.stage1.claykiln.description=Слепи глинянную печь (Clay Kiln) на верстаке. Чтобы зажечь печь ты должен вскопать блок под глинянной печью и зажечь под ней пламя.
+
+advancements.stage1.charcoalblock.title=Инвестиция в ОГОНЬ!
+advancements.stage1.charcoalblock.description=Обжарь бревно в глинянной печи. 
+
+advancements.stage1.charcoalhopper.title=Огневорот
+advancements.stage1.charcoalhopper.description=Скрафти Flame Grilled Hopper. Он работает как воронка, но еще и работает как
+
+advancements.stage1.stoneanvil.title=Наковальня!
+advancements.stage1.stoneanvil.description=Создай Каменную Наковальню (Stone Anvil). Для этого ты должен переплавить в глинянной печи булыжниковую плиту, а также переплавить булыжник. 
+
+advancements.stage1.flintblock.title=Ещё кремень!
+advancements.stage1.flintblock.description=Переплавь в глинянной печи блок гравия чтобы получить блок кремния, который ты можешь разбить на 4 кремния на каменной наковальне.
+
+advancements.stage1.stonebrick.title=Кирпичик!
+advancements.stage1.stonebrick.description=Разкроши на каменной наковальне каменную кирпичную плиту на Кирпичную кладку из Pyrotech.
+
+advancements.stage1.watersaw.title=Сила воды
+advancements.stage1.watersaw.description=Создай водяную пилу из Primal Tech. Установи её над блоком текущей воды чтобы она работала.
+
+advancements.stage1.soakingpot.title=Замочу!!!
+advancements.stage1.soakingpot.description=Сделай горшок для замачивания из Pyrotech.
+
+advancements.stage1.paper.title=Бумажка!!!!!!!
+advancements.stage1.paper.description=Вымочи в воде сахарный тростник, а затем высуши бумажную массу.
+
+advancements.stage1.tarredplanks.title=Произошёл замачивание...
+advancements.stage1.tarredplanks.description=Залей в горшок для замачивания древесную смолу и засунь в нее доски чтобы получить Пропитанные доски. (Положить можно вплоть до 4х)
+
+advancements.stage1.workstump2.title=Рабочий стол
+advancements.stage1.workstump2.description=Создай Work Stump Mk2. Ничего нового для тебя в этом крафте нету.
+
+advancements.stage1.woodenbasin.title=Не мешай мне
+advancements.stage1.woodenbasin.description=Сделай Wooden Basin. 
+
+advancements.stage1.leather.title=Из кожи вон
+advancements.stage1.leather.description=Высуши обработанную кожу.
+
+advancements.stage1.atlas.title=Лучше не терятся
+advancements.stage1.atlas.description=Сделай Старинный атлас.
+
+advancements.stage1.bladder.title=Кожаный резервуар
+advancements.stage1.bladder.description=Скрафти Fluid Bladder.
+
+advancements.stage1.stonekiln.title=Смотри, не обожгись
+advancements.stage1.stonekiln.description=Скрафти каменную печь для обжига.
+
+advancements.stage1.glass.title=Man in the mirror
+advancements.stage1.glass.description=Выплавь стекло.
+
+advancements.stage1.quern.title=Первобытный дробитель
+advancements.stage1.quern.description=Смастери ручную мельницу и точильный камень из Primal Core. Установи точильный камень на ручную мельницу щелчком ПКМ, держа его в руках. Результат крафта забирай с помощью Shift+ПКМ по дырке на боковых сторонах ручной мельницы.
+
+advancements.stage1.refractory.title=Вжршвршж
+advancements.stage1.refractory.description=Размолоти глину, гашенную известь, пепел и кремниевую пыль чтобы получить огнеупорную глину, чтобы перейти на новый этап!
+
+advancements.stage1.charcoal.title=Долой Грин Пис!
+advancements.stage1.charcoal.description=Установи на Каменный сборщик Кучу брёвен. Подожги кучу бревен и засыпь огонь гравием. Через 8 минут раскопай гравий. После этого сломай блок пепла и забери деревянным ведром древесную смолу. (Куча бревен должна быть обставлена по бокам блоками)
+
+advancements.stage1.botaniawand.title=Я не ботан!
+advancements.stage1.botaniawand.description=Создай посох леса из Botania.
+
+advancements.stage1.altar.title=Не аптека
+advancements.stage1.altar.description=Сделай лепестковый аптекарь.
+
+advancements.stage1.puredaisy.title=Цветок...
+advancements.stage1.puredaisy.description=Создай Чистую маргаритку на Лепестковом аптекаре.
+
+advancements.stage1.livingrock.title=...и камень
+advancements.stage1.livingrock.description=Обставь Чистую маргаритку вокруг камнем, подожди некоторое время и камень превратится в жизнекамень. (То же самое ты можешь сделать и с бревнами чтобы получить жизнедерево)
+
+advancements.stage1.manapool.title=Не нырять!
+advancements.stage1.manapool.description=Скрафти из жизнекамня бассейн маны.
+
+advancements.stage1.spreader.title=Передача маны
+advancements.stage1.spreader.description=Создай распространитель маны. (Разворачивается посохом леса)
+
+advancements.stage1.endoflame.title=Огонь и цветок?!
+advancements.stage1.endoflame.description=Сделай в цветочном аптекаре Пламя Края, которое генерирует ману, поглощая близлежащее горючее топливо(К примеру, уголь).
+
+advancements.stage1.manadust.title=Пыль маны
+advancements.stage1.manadust.description=Брось порох в бассейн маны, и если в бассейне будет достаточно маны - порох превратится в пыль маны.
+
+// Stage 2
+advancements.stage2.root.title=Второй этап этап QM: Through stAges
+advancements.stage2.root.description=Ты уже начал добиватся успехов, продолжай в том же духе.

@@ -1,0 +1,22 @@
+// Icon
+setIcon(<pickletweaks:hammer>)
+setFrameType("challenge")
+
+// Name
+setTranslatedTitle("advancements.stage2.root.title")
+setTranslatedDescription("advancements.stage2.root.description")
+
+// Texture
+setBackground("immersiveengineering:textures/blocks/stone_decoration_cokebrick.png")
+
+// Notification
+setShowToast(true)
+setAnnounceToChat(true)
+
+// Color
+setCompletedIconColor(#00ed9e)
+setCompletedTitleColor(#00ed9e)
+
+// Criteria
+criteria = addCriteria("completedStage1", "triumph:completed_advancement")
+criteria.setString("triumph:stage1/refractory")

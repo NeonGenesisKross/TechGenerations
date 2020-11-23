@@ -1,0 +1,19 @@
+// Icon
+setIcon(<cyclicmagic:sleeping_mat>)
+
+// Name
+setTranslatedTitle("advancements.stage1.sleepingmat.title")
+setTranslatedDescription("advancements.stage1.sleepingmat.description")
+
+// Notification
+setShowToast(false)
+setAnnounceToChat(true)
+
+//Add a parent advancement.
+addParent("triumph:stage1/rack")
+
+// Criteria
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<cyclicmagic:sleeping_mat>)
+
+setPos(183,-2)

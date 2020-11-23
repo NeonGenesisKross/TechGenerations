@@ -1,0 +1,19 @@
+// Icon
+setIcon(<pyrotech:planks_tarred>)
+
+// Name
+setTranslatedTitle("advancements.stage1.tarredplanks.title")
+setTranslatedDescription("advancements.stage1.tarredplanks.description")
+
+// Notification
+setShowToast(false)
+setAnnounceToChat(true)
+
+//Add a parent advancement.
+addParent("triumph:stage1/soakingpot")
+setRequiresParents()
+
+// Criteria
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<pyrotech:planks_tarred>)
+setPos(348,-1)

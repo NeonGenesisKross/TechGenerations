@@ -1,0 +1,20 @@
+// Icon
+setIcon(<botania:specialflower, nbt:{type:"puredaisy"}>)
+
+// Name
+setTranslatedTitle("advancements.stage1.puredaisy.title")
+setTranslatedDescription("advancements.stage1.puredaisy.description")
+
+// Notification
+setShowToast(false)
+setAnnounceToChat(true)
+
+//Add a parent advancement.
+addParent("triumph:stage1/altar")
+
+
+// Criteria
+item = addCriteria("hasItem", "minecraft:inventory_changed")
+item.addItem(<botania:specialflower, nbt:{type:"puredaisy"}>)
+
+setPos(216,130)

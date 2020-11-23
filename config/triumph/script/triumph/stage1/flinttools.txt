@@ -1,0 +1,30 @@
+// Icon
+setIcon(<primal:flint_pickaxe>)
+setFrameType("goal")
+
+// Name
+setTranslatedTitle("advancements.stage1.flinttools.title")
+setTranslatedDescription("advancements.stage1.flinttools.description")
+
+// Notification
+setShowToast(false)
+setAnnounceToChat(true)
+
+//Add a parent advancement.
+addParent("triumph:stage1/workstump")
+setRequiresParents()
+
+// Color
+setCompletedIconColor(#5c85ff)
+
+// Criteria
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<primal:sword_crude_flint>)
+criteria.addItem(<primal:flint_pickaxe>)
+criteria.addItem(<primal:flint_axe>)
+criteria.addItem(<primal:flint_shovel>)
+criteria.addItem(<primal:flint_hoe>)
+criteria.addItem(<primal:flint_shears>)
+criteria.addItem(<primal:flint_workblade>)
+
+setPos(150,48)

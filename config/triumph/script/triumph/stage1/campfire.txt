@@ -1,0 +1,19 @@
+// Icon
+setIcon(<pyrotech:campfire>)
+
+// Name
+setTranslatedTitle("advancements.stage1.campfire.title")
+setTranslatedDescription("advancements.stage1.campfire.description")
+
+// Notification
+setShowToast(false)
+setAnnounceToChat(true)
+
+//Add a parent advancement.
+addParent("triumph:stage1/firesticks")
+setRequiresParents()
+
+// Criteria
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<pyrotech:tinder>)
+setPos(216,97)

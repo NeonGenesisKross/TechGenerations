@@ -1,0 +1,19 @@
+// Icon
+setIcon(<botania:altar>)
+
+// Name
+setTranslatedTitle("advancements.stage1.altar.title")
+setTranslatedDescription("advancements.stage1.altar.description")
+
+// Notification
+setShowToast(false)
+setAnnounceToChat(true)
+
+//Add a parent advancement.
+addParent("triumph:stage1/botaniawand")
+
+// Criteria
+item = addCriteria("hasItem", "minecraft:inventory_changed")
+item.addItem(<botania:altar>)
+
+setPos(183,130)

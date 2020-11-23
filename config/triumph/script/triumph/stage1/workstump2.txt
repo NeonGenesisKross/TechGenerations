@@ -1,0 +1,22 @@
+// Icon
+setIcon(<primal_tech:work_stump_upgraded>)
+
+// Name
+setTranslatedTitle("advancements.stage1.workstump2.title")
+setTranslatedDescription("advancements.stage1.workstump2.description")
+
+// Notification
+setShowToast(false)
+setAnnounceToChat(true)
+
+//Add a parent advancement.
+addParent("triumph:stage1/tarredplanks")
+setRequiresParents()
+
+// Reward
+setRewardItem(<primal_tech:rock>)
+
+// Criteria
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<primal_tech:work_stump_upgraded>)
+setPos(381,-18)

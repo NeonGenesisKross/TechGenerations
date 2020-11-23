@@ -1,0 +1,22 @@
+// Icon
+setIcon(<botania:twigwand>)
+
+// Name
+setTranslatedTitle("advancements.stage1.botaniawand.title")
+setTranslatedDescription("advancements.stage1.botaniawand.description")
+
+// Notification
+setShowToast(true)
+setAnnounceToChat(true)
+
+//Add a parent advancement.
+addParent("triumph:stage1/workstump")
+
+// Criteria
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<botania:twigwand>)
+
+// Reward
+setRewardItem(<botania:lexicon>)
+
+setPos(150,130)

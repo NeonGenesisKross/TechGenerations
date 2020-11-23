@@ -1,0 +1,20 @@
+// Icon
+setIcon(<pyrotech:soaking_pot>)
+
+// Name
+setTranslatedTitle("advancements.stage1.soakingpot.title")
+setTranslatedDescription("advancements.stage1.soakingpot.description")
+
+// Notification
+setShowToast(false)
+setAnnounceToChat(true)
+
+//Add a parent advancement.
+addParent("triumph:stage1/stonebrick")
+setRequiresParents()
+
+// Criteria
+criteria = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria.addItem(<pyrotech:soaking_pot>)
+
+setPos(315,-18)

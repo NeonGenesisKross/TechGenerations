@@ -1,0 +1,24 @@
+// Icon
+setIcon(<pyrotech:stone_kiln>)
+setFrameType("goal")
+
+// Name
+setTranslatedTitle("advancements.stage1.stonekiln.title")
+setTranslatedDescription("advancements.stage1.stonekiln.description")
+
+// Notification
+setShowToast(false)
+setAnnounceToChat(true)
+
+//Add a parent advancement.
+addParent("triumph:stage1/stonebrick")
+setRequiresParents()
+
+// Color
+setCompletedIconColor(#5c85ff)
+
+// Criteria
+item = addCriteria("hasItem", "minecraft:inventory_changed")
+item.addItem(<pyrotech:stone_kiln>)
+
+setPos(315,81)

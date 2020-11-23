@@ -1,0 +1,19 @@
+// Icon
+setIcon(<primal_tech:wooden_basin>)
+
+// Name
+setTranslatedTitle("advancements.stage1.woodenbasin.title")
+setTranslatedDescription("advancements.stage1.woodenbasin.description")
+
+// Notification
+setShowToast(false)
+setAnnounceToChat(true)
+
+//Add a parent advancement.
+addParent("triumph:stage1/tarredplanks")
+setRequiresParents()
+
+// Criteria
+item = addCriteria("hasItem", "minecraft:inventory_changed")
+item.addItem(<primal_tech:wooden_basin>)
+setPos(381,15)

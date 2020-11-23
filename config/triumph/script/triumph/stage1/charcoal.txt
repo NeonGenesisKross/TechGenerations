@@ -1,0 +1,20 @@
+// Icon
+setIcon(<minecraft:coal:1>)
+
+// Name
+setTranslatedTitle("advancements.stage1.charcoal.title")
+setTranslatedDescription("advancements.stage1.charcoal.description")
+
+// Notification
+setShowToast(false)
+setAnnounceToChat(true)
+
+//Add a parent advancement.
+addParent("triumph:stage1/stonebrick")
+
+// Criteria
+item = addCriteria("hasItem", "minecraft:inventory_changed")
+item.addItem(<minecraft:coal:1>)
+item.addItem(<pyrotech:tar_collector>)
+
+setPos(315,48)

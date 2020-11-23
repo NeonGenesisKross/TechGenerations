@@ -1,0 +1,19 @@
+// Icon
+setIcon(<botania:specialflower, nbt:{type:"endoflame"}>)
+
+// Name
+setTranslatedTitle("advancements.stage1.endoflame.title")
+setTranslatedDescription("advancements.stage1.endoflame.description")
+
+// Notification
+setShowToast(false)
+setAnnounceToChat(true)
+
+//Add a parent advancement.
+addParent("triumph:stage1/spreader")
+
+// Criteria
+criteria1 = addCriteria("hasItem", "minecraft:inventory_changed")
+criteria1.addItem(<botania:specialflower, nbt:{type:"endoflame"}>)
+
+setPos(348,130)

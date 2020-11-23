@@ -1,0 +1,19 @@
+// Icon
+setIcon(<primal_tech:fluid_bladder>)
+
+// Name
+setTranslatedTitle("advancements.stage1.bladder.title")
+setTranslatedDescription("advancements.stage1.bladder.description")
+
+// Notification
+setShowToast(false)
+setAnnounceToChat(true)
+
+//Add a parent advancement.
+addParent("triumph:stage1/leather")
+setRequiresParents()
+
+// Criteria
+item = addCriteria("hasItem", "minecraft:inventory_changed")
+item.addItem(<primal_tech:fluid_bladder>)
+setPos(447,31)
